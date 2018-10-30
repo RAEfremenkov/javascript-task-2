@@ -66,7 +66,7 @@ function getFormattedPhone(phone) {
 function getFormattedEntry(phone) {
     const data = phoneBook[phone];
 
-    let entry = [];
+    const entry = [];
 
     entry.push(data.name);
     entry.push(getFormattedPhone(phone));
